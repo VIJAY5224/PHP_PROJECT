@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #00a79d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    background: #222;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.edit {
+    background: orange;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.delete {
+    background: red;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* Heading style */
+
+/* Form group spacing */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Input and select field styles */
+.form-group input[type="text"],
+.form-group select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+ border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Submit button styling */
+input.submit {
+  display: block;
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 0;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+input.submit:hover {
+  background-color: #218838;
+}
