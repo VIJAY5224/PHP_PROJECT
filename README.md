@@ -8,7 +8,7 @@ A simple Student Management System built using PHP, HTML/CSS, and MySQL for data
 
 ✏️ Edit/Update Student Record
 
-❌ Delete Student by ID
+❌ Delete Student by ID(delete)
 
 📦 Responsive frontend using HTML and CSS
 
